@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/bg_bottom_sheet_dialog_fragment.xml" value="0.3567708333333333" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/bg_gradient.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/bg_overly_bottom.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/bg_overly_top.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/bottom_nav_icon_color_selector.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/button_primary_shape.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_developing.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_error.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_load_pic.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_no_pic_detail.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_photo.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_placeholder.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ic_placeholder_large.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ripple_effect.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/ripple_effect_grey.xml" value="0.3828125" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/shape_header_color.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/shape_heder_color.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/shape_price_color.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/shape_saerch_color.xml" value="0.37083333333333335" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/shape_search_color.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/drawable/shape_sub_slider_color.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_account.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_cabinet_kitchen.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_cart.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_category.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_dashboard_value.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_detail_single_cabinet.xml" value="0.25" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_detail_single_cobinet.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_home.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_main.xml" value="0.25" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_representation.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/image_slider_layout_item.xml" value="0.2" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_category.xml" value="0.5" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_category_list.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_header.xml" value="0.67" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_pro.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_slider.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_sub.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_sub_list.xml" value="0.276268115942029" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/item_sub_slider.xml" value="0.5" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/layout_data_not_fond.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/layout_data_not_found.xml" value="0.3546875" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/layout_developing.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/layout/toast_layout.xml" value="0.19739583333333333" />
+        <entry key="..\:/Users/Pardis/AndroidStudioProjects/ShopOrinabApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21354166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
