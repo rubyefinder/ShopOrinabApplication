@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <androidx.coordinatorlayout.widget.CoordinatorLayout
+       android:id="@+id/lnParent"
+       android:visibility="gone"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <com.google.android.material.appbar.AppBarLayout
+           android:id="@+id/appBarLayout"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <androidx.appcompat.widget.Toolbar
+               android:id="@+id/toolbar"
+               android:layout_width="match_parent"
+               android:layout_height="?attr/actionBarSize"
+               android:background="@color/color_background_toolbar"
+               app:contentInsetStartWithNavigation="0dp"
+               app:layout_scrollFlags="scroll|enterAlways"
+               app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@drawable/shape_search_color"
+                   android:layout_marginEnd="@dimen/margin_16"
+                   android:gravity="center_vertical">
+                   <View
+                       android:layout_width="0dp"
+                       android:layout_height="1dp"
+                       android:layout_weight="1"/>
+
+                   <TextView
+                       android:id="@+id/txtTitle"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/secondary_text"
+                       android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                       android:text="@string/search_in_all_ads"/>
+
+                   <View
+                       android:layout_width="@dimen/margin_8"
+                       android:layout_height="1dp"/>
+
+                   <androidx.constraintlayout.utils.widget.ImageFilterView
+                       android:layout_width="@dimen/margin_40"
+                       android:layout_height="@dimen/margin_40"
+                       app:srcCompat="@drawable/ic_search"
+                       android:padding="@dimen/margin_12"
+                       app:tint="@color/secondary_text" />
+               </LinearLayout>
+           </androidx.appcompat.widget.Toolbar>
+
+           <com.google.android.material.tabs.TabLayout
+               android:id="@+id/tabLayout"
+               android:layout_width="match_parent"
+               android:layout_height="?attr/actionBarSize"
+               app:tabGravity="fill"
+               android:background="@color/color_background_toolbar"
+               app:tabIndicatorColor="@color/black"
+               app:tabIndicatorHeight="3dp"
+               app:tabMode="scrollable"
+               android:layoutDirection="ltr"
+               app:tabSelectedTextColor="@color/black"
+               app:tabTextAppearance="@style/TextAppearance.MaterialComponents.Caption"
+               app:tabTextColor="@color/grey_10" />
+       </com.google.android.material.appbar.AppBarLayout>
+
+       <androidx.viewpager.widget.ViewPager
+           android:id="@+id/viewPager"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+   </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.orinab.shoporinab.utils.custom_view.progress_bar.ViewLoadingDotsBounce
+        android:id="@+id/vLoading"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/margin_40"
+        android:layout_height="@dimen/margin_40"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

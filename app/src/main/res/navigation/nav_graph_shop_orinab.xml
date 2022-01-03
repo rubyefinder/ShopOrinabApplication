@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_school_service.xml"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.orinab.shoporinab.ui.view.fragment.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" />
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.orinab.shoporinab.ui.view.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_cabinetKitchenFragment"
+            app:destination="@id/cabinetKitchenFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/slide_right"/>
+        <action
+            android:id="@+id/action_mainFragment_to_detailSingleCobinetFragment"
+            app:destination="@id/detailSingleCobinetFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/slide_right"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/cabinetKitchenFragment"
+        android:name="com.orinab.shoporinab.ui.view.fragment.CabinetKitchenFragment"
+        android:label="fragment_cabinet_kitchen"
+        tools:layout="@layout/fragment_cabinet_kitchen" >
+        <action
+            android:id="@+id/action_cabinetKitchenFragment_to_detailSingleCobinetFragment"
+            app:destination="@id/detailSingleCobinetFragment"
+            app:enterAnim="@anim/slide_left"
+            app:exitAnim="@anim/exit_anim"
+            app:popEnterAnim="@anim/pop_enter_anim"
+            app:popExitAnim="@anim/slide_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/detailSingleCobinetFragment"
+        android:name="com.orinab.shoporinab.ui.view.fragment.DetailSingleCabinetFragment"
+        android:label="fragment_detail_single_cobinet"
+        tools:layout="@layout/fragment_detail_single_cabinet" />
+
+</navigation>

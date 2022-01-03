@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/lnParent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/toolbar_container"
+                android:layout_width="match_parent"
+                app:contentInsetStartWithNavigation="0dp"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@color/color_background_toolbar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical">
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/margin_1"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txtTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/iran_sans"
+                            android:textColor="@color/grey_60"
+                            android:textSize="@dimen/text_size_16"
+                            android:textStyle="bold" />
+
+                        <androidx.constraintlayout.utils.widget.ImageFilterButton
+                            android:id="@+id/img_btn_back"
+                            android:layout_width="?attr/actionBarSize"
+                            android:layout_height="?attr/actionBarSize"
+                            android:layout_gravity="end"
+                            android:background="@color/transparent"
+                            android:tint="@color/grey_60"
+                            android:rotation="180"
+                            app:srcCompat="@drawable/ic_arrow_back" />
+
+
+
+
+
+
+                    </LinearLayout>
+                </androidx.appcompat.widget.Toolbar>
+
+                <com.miguelcatalan.materialsearchview.MaterialSearchView
+                    android:id="@+id/searchView"
+                    style="@style/MaterialSearchViewStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/search" />
+            </FrameLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_1"
+                android:background="@color/background_coin" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/color_background_toolbar"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple_effect_grey"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:tint="@color/grey_60"
+                        app:srcCompat="@drawable/ic_sort" />
+
+                    <View
+                        android:layout_width="@dimen/margin_8"
+                        android:layout_height="@dimen/margin_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sorting" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/margin_1"
+                    android:layout_height="@dimen/margin_40"
+                    android:layout_gravity="center"
+                    android:background="@color/background_coin" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple_effect_grey"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center">
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent"
+                        android:tint="@color/grey_60"
+                        app:srcCompat="@drawable/ic_filter_alt" />
+
+                    <View
+                        android:layout_width="@dimen/margin_8"
+                        android:layout_height="@dimen/margin_1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/filter" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcCabinetKitchen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_4"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <include layout="@layout/layout_data_not_found"
+            android:id="@+id/lnDataNotFound"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.orinab.shoporinab.utils.custom_view.progress_bar.ViewLoadingDotsBounce
+        android:id="@+id/vLoading"
+        android:layout_width="@dimen/margin_40"
+        android:layout_height="@dimen/margin_40"
+        android:layout_gravity="center" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
